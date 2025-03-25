@@ -24,10 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm install
       - uses: <nom-utilisateur>/hello-action@v1
         with:
           name: Martin
