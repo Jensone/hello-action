@@ -1,0 +1,11 @@
+name: "Hello Action"
+description: "Une action simple pour GitHub"
+author: "Jensone"
+inputs:
+  name:
+    description: "Nom de l'utilisateur"
+    required: true
+    default: "World"
+runs:
+  using: "node20"
+  main: "index.js"
