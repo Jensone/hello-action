@@ -1,4 +1,4 @@
-name: "Hello Action"
+name: "Hello Action World"
 description: "Une action simple pour GitHub"
 author: "Jensone"
 inputs:
