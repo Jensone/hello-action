@@ -10,7 +10,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ./entrypoint.sh
+    - run: echo "Hello $name"
       shell: bash
 
 branding:
