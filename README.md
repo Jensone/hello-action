@@ -5,8 +5,7 @@ C'est une action simple pour GitHub pour apprendre à publier ses propres action
 ## Structure d'exemple
 
 - `action.yaml` : fichier décrivant l'action
-- `index.js` : fichier principal de l'action
-- `package.json` : fichier de dépendances
+- `entrypoint.sh` : fichier exécutable qui sera exécuté lors de l'exécution de l'action
 - `README.md` : fichier de description
 
 ## Utilisation
@@ -24,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: <nom-utilisateur>/hello-action@v1
+      - uses: <nom-utilisateur>/hello-action@v1.x
         with:
           name: Martin
 ```

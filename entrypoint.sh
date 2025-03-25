@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo "Hello, ${INPUT_NAME}"
+name=$1
+echo "Hello $name"
